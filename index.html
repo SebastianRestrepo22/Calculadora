@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <section>
+        <div class="Fondo">
+            <input type="text" id="pantalla" class="pantalla" disabled>
+            <div class="teclas">
+                <button id="1" onclick="mostrarNumero('1')">1</button>
+                <button id="2" onclick="mostrarNumero('2')">2</button>
+                <button id="3" onclick="mostrarNumero('3')">3</button>
+                <button id="*" onclick="mostrarNumero('*')">*</button>
+                <button id="4" onclick="mostrarNumero('4')">4</button>
+                <button id="5" onclick="mostrarNumero('5')">5</button>
+                <button id="6" onclick="mostrarNumero('6')">6</button>
+                <button id="-" onclick="mostrarNumero('-')">-</button>
+                <button id="7" onclick="mostrarNumero('7')">7</button>
+                <button id="8" onclick="mostrarNumero('8')">8</button>
+                <button id="9" onclick="mostrarNumero('9')">9</button>
+                <button id="+" onclick="mostrarNumero('+')">+</button>
+                <button id="AC" onclick="Eliminar('AC')">AC</button>
+                <button id="0" onclick="mostrarNumero('0')">0</button>
+                <button id="=" onclick="Calcular('=')">=</button>
+                <button id="/" onclick="mostrarNumero('/')">/</button>
+            </div>
+        </div>
+    </section>
+    <script src="./js/calculadora.js"></script>
+</body>
+</html>
